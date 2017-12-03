@@ -7,12 +7,11 @@ import {
   TouchableHighlight
 } from 'react-native';
 
-import Jogar from './src/components/Jogar';
 
 const logo = require('../imgs/logo.png');
 const btnJogar = require('../imgs/botao_jogar.png'); 
 const btnSobreJogo = require('../imgs/sobre_jogo.png'); 
-const btnOutrosJogos = require('../src/imgs/outros_jogos.png');
+const btnOutrosJogos = require('../imgs/outros_jogos.png');
 
 export default class react_native_router_flux extends Component {
   render() {
