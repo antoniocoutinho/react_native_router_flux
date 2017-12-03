@@ -9,10 +9,10 @@ import OutrosJogos from './src/components/OutrosJogos';
 export default class react_native_router_flux extends Component {
   render() {
     return (
-      <Router>
+      <Router sceneStyle={{paddingTop: 40}}>
         <Scene key='principal' component={Principal} initil title='Cara ou Coroa'/>
-        <Scene key='sobrejogo' component={SobreJogo} />
-        <Scene key='outrosjogos' component={OutrosJogos} />
+        <Scene key='sobrejogo' component={SobreJogo} title='Sobre o Jogo'/>
+        <Scene key='outrosjogos' component={OutrosJogos} title='Outros Jogos'/>
       </Router>
     );
   }
