@@ -21,7 +21,12 @@ export default class react_native_router_flux extends Component {
         
         <View style={styles.apresentacaoJogo}>
           <Image source={logo}/>
-            <TouchableHighlight>
+
+            <TouchableHighlight
+             onPress={() => {
+              Actions.resultado();
+          }}
+            >
               <Image source={btnJogar}/>
             </TouchableHighlight>
         </View>

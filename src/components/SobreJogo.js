@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {
   Text,
+  View,
   StyleSheet
 } from 'react-native';
 
@@ -8,7 +9,9 @@ import {
 export default class SobreJogo extends Component {
   render() {
     return (
-      <Text>Testando Cena jogo</Text>
+      <View style={styles.viewParent}>
+        <Text>Testando Cena jogo</Text>
+      </View>
     );
   }
 }
