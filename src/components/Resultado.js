@@ -41,7 +41,7 @@ export default class Resultado extends Component {
                 </View>
             );
     
-        } else {
+        }
         
             return (
                 <View style={styles.resultado}>
@@ -49,7 +49,6 @@ export default class Resultado extends Component {
                         <Text>{this.state.resultado}</Text>
                 </View>
                 );
-            }
     } 
 }
 
